@@ -1,0 +1,49 @@
+body{
+  background-image: url('vector.jpg ');
+  background-position: right top;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-color: rgb(231, 113, 133);
+  font-size: 100%;
+}
+h1{
+  color: white;
+  letter-spacing: 80px;
+  font-family: gill sans;
+  text-align: center;
+  text-shadow: 4px 6px 1px rgba(218, 47, 76, 0.849);
+  animation: blink 13s infinite ;
+}
+div.set1{
+    border: 14px double;
+    padding: 25px;
+    margin: auto;
+    background-color:lightcoral;
+    color: wheat;
+    width: 350px;
+    margin-bottom: 15px;
+    text-align: justify;
+    text-transform: capitalize;
+    text-indent: 10px;
+}
+.variant{
+  font-variant: small-caps;
+}
+div.set2{
+  border: 14px double;
+  padding: 25px;
+  margin: auto;
+  background-color: dodgerblue;
+  color: white;
+  width: 350px;
+  margin-top: 15px;
+  text-align: justify;
+  text-transform: lowercase;
+  text-indent: 15px;
+}
+@keyframes blink {
+  80% {color:rgb(231, 113, 133)}
+}
+@keyframes high {
+  50% {color: lightcoral;}
+}
